@@ -4,6 +4,151 @@ exports[`App has a valid snapshot 1`] = `
 <div
   className="page"
 >
+  <p
+    className="interactions"
+  >
+     Please use one of this codes:
+    <span>
+      THB
+      , 
+    </span>
+    <span>
+      USD
+      , 
+    </span>
+    <span>
+      AUD
+      , 
+    </span>
+    <span>
+      HKD
+      , 
+    </span>
+    <span>
+      CAD
+      , 
+    </span>
+    <span>
+      NZD
+      , 
+    </span>
+    <span>
+      SGD
+      , 
+    </span>
+    <span>
+      EUR
+      , 
+    </span>
+    <span>
+      HUF
+      , 
+    </span>
+    <span>
+      CHF
+      , 
+    </span>
+    <span>
+      GBP
+      , 
+    </span>
+    <span>
+      UAH
+      , 
+    </span>
+    <span>
+      JPY
+      , 
+    </span>
+    <span>
+      CZK
+      , 
+    </span>
+    <span>
+      DKK
+      , 
+    </span>
+    <span>
+      ISK
+      , 
+    </span>
+    <span>
+      NOK
+      , 
+    </span>
+    <span>
+      SEK
+      , 
+    </span>
+    <span>
+      HRK
+      , 
+    </span>
+    <span>
+      RON
+      , 
+    </span>
+    <span>
+      BGN
+      , 
+    </span>
+    <span>
+      TRY
+      , 
+    </span>
+    <span>
+      ILS
+      , 
+    </span>
+    <span>
+      CLP
+      , 
+    </span>
+    <span>
+      MXN
+      , 
+    </span>
+    <span>
+      PHP
+      , 
+    </span>
+    <span>
+      ZAR
+      , 
+    </span>
+    <span>
+      BRL
+      , 
+    </span>
+    <span>
+      MYR
+      , 
+    </span>
+    <span>
+      RUB
+      , 
+    </span>
+    <span>
+      IDR
+      , 
+    </span>
+    <span>
+      INR
+      , 
+    </span>
+    <span>
+      KRW
+      , 
+    </span>
+    <span>
+      CNY
+      , 
+    </span>
+    <span>
+      XDR
+      , 
+    </span>
+  </p>
   <div
     className="interactions"
   >
@@ -13,12 +158,19 @@ exports[`App has a valid snapshot 1`] = `
       <input
         onChange={[Function]}
         type="text"
-        value="redux"
+        value=""
       />
       <button
         type="submit"
       >
-        Search
+        Add
+      </button>
+      <button
+        className="interactions"
+        onClick={[Function]}
+        type="button"
+      >
+        Remove All
       </button>
     </form>
   </div>
@@ -37,10 +189,10 @@ exports[`App has a valid snapshot 1`] = `
       >
         <button
           className="button-inline"
-          onClick={[Function]}
+          onClick={undefined}
           type="button"
         >
-          Title
+          Currency
         </button>
       </span>
       <span
@@ -52,10 +204,25 @@ exports[`App has a valid snapshot 1`] = `
       >
         <button
           className="button-inline"
-          onClick={[Function]}
+          onClick={undefined}
           type="button"
         >
-          Author
+          Exchange rate
+        </button>
+      </span>
+      <span
+        style={
+          Object {
+            "width": "20%",
+          }
+        }
+      >
+        <button
+          className="button-inline"
+          onClick={undefined}
+          type="button"
+        >
+          Code
         </button>
       </span>
       <span
@@ -67,10 +234,10 @@ exports[`App has a valid snapshot 1`] = `
       >
         <button
           className="button-inline"
-          onClick={[Function]}
+          onClick={undefined}
           type="button"
         >
-          Comments
+          Date
         </button>
       </span>
       <span
@@ -79,31 +246,7 @@ exports[`App has a valid snapshot 1`] = `
             "width": "10%",
           }
         }
-      >
-        <button
-          className="button-inline"
-          onClick={[Function]}
-          type="button"
-        >
-          Points
-        </button>
-      </span>
-      <span
-        style={
-          Object {
-            "width": "10%",
-          }
-        }
-      >
-        Archive
-      </span>
-    </div>
-  </div>
-  <div
-    className="interactions"
-  >
-    <div>
-      Loading ...
+      />
     </div>
   </div>
 </div>
@@ -133,6 +276,13 @@ exports[`Search has a valid snapshot 1`] = `
   >
     Search
   </button>
+  <button
+    className="interactions"
+    onClick={[Function]}
+    type="button"
+  >
+    Remove All
+  </button>
 </form>
 `;
 
@@ -152,10 +302,10 @@ exports[`Table has a valid snapshot 1`] = `
     >
       <button
         className="button-inline"
-        onClick={[Function]}
+        onClick={undefined}
         type="button"
       >
-        Title
+        Currency
       </button>
     </span>
     <span
@@ -167,10 +317,25 @@ exports[`Table has a valid snapshot 1`] = `
     >
       <button
         className="button-inline"
-        onClick={[Function]}
+        onClick={undefined}
         type="button"
       >
-        Author
+        Exchange rate
+      </button>
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      <button
+        className="button-inline"
+        onClick={undefined}
+        type="button"
+      >
+        Code
       </button>
     </span>
     <span
@@ -182,12 +347,57 @@ exports[`Table has a valid snapshot 1`] = `
     >
       <button
         className="button-inline"
-        onClick={[Function]}
+        onClick={undefined}
         type="button"
       >
-        Comments
+        Date
       </button>
     </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="table-row"
+  >
+    <span
+      style={
+        Object {
+          "width": "40%",
+        }
+      }
+    >
+      
+    </span>
+    <span
+      style={
+        Object {
+          "width": "30%",
+        }
+      }
+    >
+       PLN
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      
+    </span>
+    <span
+      style={
+        Object {
+          "width": "10%",
+        }
+      }
+    />
     <span
       style={
         Object {
@@ -196,21 +406,12 @@ exports[`Table has a valid snapshot 1`] = `
       }
     >
       <button
-        className="button-inline"
+        className="interactions"
         onClick={[Function]}
         type="button"
       >
-        Points
+        Remove
       </button>
-    </span>
-    <span
-      style={
-        Object {
-          "width": "10%",
-        }
-      }
-    >
-      Archive
     </span>
   </div>
   <div
@@ -223,11 +424,7 @@ exports[`Table has a valid snapshot 1`] = `
         }
       }
     >
-      <a
-        href={undefined}
-      >
-        1
-      </a>
+      
     </span>
     <span
       style={
@@ -236,7 +433,16 @@ exports[`Table has a valid snapshot 1`] = `
         }
       }
     >
-      1
+       PLN
+    </span>
+    <span
+      style={
+        Object {
+          "width": "20%",
+        }
+      }
+    >
+      
     </span>
     <span
       style={
@@ -244,77 +450,7 @@ exports[`Table has a valid snapshot 1`] = `
           "width": "10%",
         }
       }
-    >
-      1
-    </span>
-    <span
-      style={
-        Object {
-          "width": "10%",
-        }
-      }
-    >
-      2
-    </span>
-    <span
-      style={
-        Object {
-          "width": "10%",
-        }
-      }
-    >
-      <button
-        className="button-inline"
-        onClick={[Function]}
-        type="button"
-      >
-        Dismiss
-      </button>
-    </span>
-  </div>
-  <div
-    className="table-row"
-  >
-    <span
-      style={
-        Object {
-          "width": "40%",
-        }
-      }
-    >
-      <a
-        href={undefined}
-      >
-        2
-      </a>
-    </span>
-    <span
-      style={
-        Object {
-          "width": "30%",
-        }
-      }
-    >
-      2
-    </span>
-    <span
-      style={
-        Object {
-          "width": "10%",
-        }
-      }
-    >
-      1
-    </span>
-    <span
-      style={
-        Object {
-          "width": "10%",
-        }
-      }
-    >
-      2
-    </span>
+    />
     <span
       style={
         Object {
@@ -323,11 +459,11 @@ exports[`Table has a valid snapshot 1`] = `
       }
     >
       <button
-        className="button-inline"
+        className="interactions"
         onClick={[Function]}
         type="button"
       >
-        Dismiss
+        Remove
       </button>
     </span>
   </div>
