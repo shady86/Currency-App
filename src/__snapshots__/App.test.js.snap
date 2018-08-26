@@ -4,151 +4,444 @@ exports[`App has a valid snapshot 1`] = `
 <div
   className="page"
 >
-  <p
+  <h1
     className="interactions"
   >
-     Please use one of this codes:
-    <span>
-      THB
-      , 
-    </span>
-    <span>
-      USD
-      , 
-    </span>
-    <span>
-      AUD
-      , 
-    </span>
-    <span>
-      HKD
-      , 
-    </span>
-    <span>
-      CAD
-      , 
-    </span>
-    <span>
-      NZD
-      , 
-    </span>
-    <span>
-      SGD
-      , 
-    </span>
-    <span>
-      EUR
-      , 
-    </span>
-    <span>
-      HUF
-      , 
-    </span>
-    <span>
-      CHF
-      , 
-    </span>
-    <span>
-      GBP
-      , 
-    </span>
-    <span>
-      UAH
-      , 
-    </span>
-    <span>
-      JPY
-      , 
-    </span>
-    <span>
-      CZK
-      , 
-    </span>
-    <span>
-      DKK
-      , 
-    </span>
-    <span>
-      ISK
-      , 
-    </span>
-    <span>
-      NOK
-      , 
-    </span>
-    <span>
-      SEK
-      , 
-    </span>
-    <span>
-      HRK
-      , 
-    </span>
-    <span>
-      RON
-      , 
-    </span>
-    <span>
-      BGN
-      , 
-    </span>
-    <span>
-      TRY
-      , 
-    </span>
-    <span>
-      ILS
-      , 
-    </span>
-    <span>
-      CLP
-      , 
-    </span>
-    <span>
-      MXN
-      , 
-    </span>
-    <span>
-      PHP
-      , 
-    </span>
-    <span>
-      ZAR
-      , 
-    </span>
-    <span>
-      BRL
-      , 
-    </span>
-    <span>
-      MYR
-      , 
-    </span>
-    <span>
-      RUB
-      , 
-    </span>
-    <span>
-      IDR
-      , 
-    </span>
-    <span>
-      INR
-      , 
-    </span>
-    <span>
-      KRW
-      , 
-    </span>
-    <span>
-      CNY
-      , 
-    </span>
-    <span>
-      XDR
-      , 
-    </span>
-  </p>
+    Welcome to your favorite currency exchange rate website ☺
+  </h1>
+  <h3
+    className="interactions"
+  >
+     Choose one of this currency to add to your favorite list:
+    <div
+      style={
+        Object {
+          "marginTop": "10px",
+        }
+      }
+    >
+      <button
+        className="currencyTiles"
+        data-tip="dolar amerykański"
+        onClick={[Function]}
+      >
+        USD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="euro"
+        onClick={[Function]}
+      >
+        EUR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="frank szwajcarski"
+        onClick={[Function]}
+      >
+        CHF
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="funt szterling"
+        onClick={[Function]}
+      >
+        GBP
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="bat (Tajlandia)"
+        onClick={[Function]}
+      >
+        THB
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="dolar australijski"
+        onClick={[Function]}
+      >
+        AUD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="dolar Hongkongu"
+        onClick={[Function]}
+      >
+        HKD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="dolar kanadyjski"
+        onClick={[Function]}
+      >
+        CAD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="dolar nowozelandzki"
+        onClick={[Function]}
+      >
+        NZD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="dolar singapurski"
+        onClick={[Function]}
+      >
+        SGD
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="forint (Węgry)"
+        onClick={[Function]}
+      >
+        HUF
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="hrywna (Ukraina)"
+        onClick={[Function]}
+      >
+        UAH
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="jen (Japonia)"
+        onClick={[Function]}
+      >
+        JPY
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="korona czeska"
+        onClick={[Function]}
+      >
+        CZK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="korona duńska"
+        onClick={[Function]}
+      >
+        DKK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="korona islandzka"
+        onClick={[Function]}
+      >
+        ISK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="korona norweska"
+        onClick={[Function]}
+      >
+        NOK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="korona szwedzka"
+        onClick={[Function]}
+      >
+        SEK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="kuna (Chorwacja)"
+        onClick={[Function]}
+      >
+        HRK
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="lej rumuński"
+        onClick={[Function]}
+      >
+        RON
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="lew (Bułgaria)"
+        onClick={[Function]}
+      >
+        BGN
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="lira turecka"
+        onClick={[Function]}
+      >
+        TRY
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="nowy izraelski szekel"
+        onClick={[Function]}
+      >
+        ILS
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="peso chilijskie"
+        onClick={[Function]}
+      >
+        CLP
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="peso meksykańskie"
+        onClick={[Function]}
+      >
+        MXN
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="piso filipińskie"
+        onClick={[Function]}
+      >
+        PHP
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="rand (Republika Południowej Afryki)"
+        onClick={[Function]}
+      >
+        ZAR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="real (Brazylia)"
+        onClick={[Function]}
+      >
+        BRL
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="ringgit (Malezja)"
+        onClick={[Function]}
+      >
+        MYR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="rubel rosyjski"
+        onClick={[Function]}
+      >
+        RUB
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="rupia indonezyjska"
+        onClick={[Function]}
+      >
+        IDR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="rupia indyjska"
+        onClick={[Function]}
+      >
+        INR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="won południowokoreański"
+        onClick={[Function]}
+      >
+        KRW
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="yuan renminbi (Chiny)"
+        onClick={[Function]}
+      >
+        CNY
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+      <button
+        className="currencyTiles"
+        data-tip="SDR (MFW)"
+        onClick={[Function]}
+      >
+        XDR
+      </button>
+      <div
+        className="__react_component_tooltip place-top type-dark "
+        data-id="tooltip"
+        id={undefined}
+      />
+    </div>
+  </h3>
   <div
     className="interactions"
   >
@@ -161,23 +454,17 @@ exports[`App has a valid snapshot 1`] = `
         value=""
       />
       <button
+        className="addButton"
         type="submit"
       >
         Add
-      </button>
-      <button
-        className="interactions"
-        onClick={[Function]}
-        type="button"
-      >
-        Remove All
       </button>
     </form>
   </div>
   <div
     className="table"
   >
-    <div
+    <h5
       className="table-header"
     >
       <span
@@ -247,7 +534,7 @@ exports[`App has a valid snapshot 1`] = `
           }
         }
       />
-    </div>
+    </h5>
   </div>
 </div>
 `;
@@ -272,16 +559,10 @@ exports[`Search has a valid snapshot 1`] = `
     value={undefined}
   />
   <button
+    className="addButton"
     type="submit"
   >
     Search
-  </button>
-  <button
-    className="interactions"
-    onClick={[Function]}
-    type="button"
-  >
-    Remove All
   </button>
 </form>
 `;
@@ -290,7 +571,7 @@ exports[`Table has a valid snapshot 1`] = `
 <div
   className="table"
 >
-  <div
+  <h5
     className="table-header"
   >
     <span
@@ -360,53 +641,61 @@ exports[`Table has a valid snapshot 1`] = `
         }
       }
     />
-  </div>
+  </h5>
   <div
     className="table-row"
   >
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "40%",
         }
       }
     >
-      
+      dolar amerykański
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "30%",
         }
       }
     >
+      3.7014
        PLN
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "20%",
         }
       }
     >
-      
+      USD
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "10%",
         }
       }
-    />
+    >
+      2018-08-24
+    </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "10%",
         }
       }
     >
       <button
-        className="interactions"
+        className="removeButtonList"
         onClick={[Function]}
         type="button"
       >
@@ -420,46 +709,54 @@ exports[`Table has a valid snapshot 1`] = `
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "40%",
         }
       }
     >
-      
+      euro
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "30%",
         }
       }
     >
+      4.2801
        PLN
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "20%",
         }
       }
     >
-      
+      EUR
     </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "10%",
         }
       }
-    />
+    >
+      2018-08-24
+    </span>
     <span
       style={
         Object {
+          "padding": "10px",
           "width": "10%",
         }
       }
     >
       <button
-        className="interactions"
+        className="removeButtonList"
         onClick={[Function]}
         type="button"
       >
