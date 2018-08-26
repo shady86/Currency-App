@@ -1,6 +1,6 @@
-### CLONE REPOSITORY
+### DOWNLOAD OR CLONE REPOSITORY
 ### INSTALL
-- VIA COMMAND - Yarn
+- use command yarn in main directory
 ### START APP
-- WITH - Yarn Start
+- use command yarn stsart
 
